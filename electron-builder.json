@@ -1,0 +1,17 @@
+{
+    "appId": "com.chamudi-electron.electron-app",
+    "files": [
+        "dist-electron", "dist-react"
+    ],
+    "icon": "./desktopIcon.png",
+    "mac": {
+        "target": "dmg"
+    },
+    "linux": {
+        "target": "AppImage",
+        "category": "Utility"
+    },
+    "win": {
+        "target": ["portable", "msi"]
+    }
+}
